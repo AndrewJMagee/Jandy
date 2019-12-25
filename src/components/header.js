@@ -13,10 +13,11 @@ class Header extends Component {
   render() {
     return (
       <header id="header">
-        <h1><a href="/">Jandy Boba</a></h1>
+        <h1><a href="/">Jandy Boba!</a></h1>
         <nav className="links">
           <ul>
             <li><Link to="/about">About</Link></li>
+            <li><Link to="/about2">About Pt. 2</Link></li>
             <li><a href="eastcoast.html">East Coast USA</a></li>
             <li><a href="westcoast.html">West Coast USA</a></li>
             <li><a href="asia.html">Asia</a></li>

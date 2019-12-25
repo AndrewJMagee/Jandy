@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import About from './components/about'
+import About2 from './components/about2'
 
 
 const routing = (
@@ -12,6 +13,7 @@ const routing = (
     <div>
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
+      <Route path="/about2" component={About2} />
     </div>
   </Router>
 )
