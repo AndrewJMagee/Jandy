@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route, Link, Redirect as Router, Switch } from 'react-router-dom'
 
 
 class Header extends Component {
@@ -15,7 +16,7 @@ class Header extends Component {
         <h1><a href="/">Jandy Boba</a></h1>
         <nav className="links">
           <ul>
-            <li><a href="/about">About</a></li>
+            <li><Link to="/about">About</Link></li>
             <li><a href="eastcoast.html">East Coast USA</a></li>
             <li><a href="westcoast.html">West Coast USA</a></li>
             <li><a href="asia.html">Asia</a></li>
