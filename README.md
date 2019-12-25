@@ -36,9 +36,11 @@ how the app will look in production.
 
 Before pushing to heroku, run `npm run build` to remake the build file and retest the changes with `node ./bin/www`. After confirming everything looks good, run: 
 
-`git add.`
-`git commit -m <commit message>`
-`git push heroku master`
+```
+git add.
+git commit -m <commit message>
+git push heroku master
+```
 
 to push to production. The app can be accessed at [jandy.app](https://jandy.app).
 
