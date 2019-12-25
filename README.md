@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Running Locally
 
 In the project directory, you can run:
 
@@ -31,6 +31,16 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Script that heroku uses to run the app. After building the app for production, run this command to see
 how the app will look in production.
+
+## Pushing to Production
+
+Before pushing to heroku, run `npm run build` to remake the build file and retest the changes with `node ./bin/www`. After confirming everything looks good, run: 
+
+`git add.`
+`git commit -m <commit message>`
+`git push heroku master`
+
+to push to production. The app can be accessed at [jandy.app](https://jandy.app).
 
 ## Learn More
 
