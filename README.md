@@ -42,7 +42,7 @@ git commit -m <commit message>
 git push heroku master
 ```
 
-to push to production. The app can be accessed at [jandy.app](https://jandy.app).
+to push to production. The app can be accessed at [jandy.app](https://www.jandy.app).
 
 ## Learn More
 
